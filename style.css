@@ -6,6 +6,9 @@ body{
 h1{
     text-align: center;
 }
+h3{
+    text-align: center;
+}
 
 .container{
     position: relative;
@@ -18,36 +21,36 @@ h1{
     /* position: absolute; */
 }
 .hide-1{
-    width: 4.5rem;
-    height: 4.60rem;
+    width: 20%;
+    height: 30%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 3.75rem;
-    left: 1.12rem;
+    top: 24%;
+    left: 5%;
 }
 .hide-2{
-    width: 4.5rem;
-    height: 4.60rem;
+    width: 20%;
+    height: 30%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 3.75rem;
-    left: 6.15rem;
+    top: 24%;
+    left: 27.5%;
 }
 .hide-3{
-    width: 4.5rem;
-    height: 4.60rem;
+    width: 20%;
+    height: 30%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 3.75rem;
-    left: 11.15rem;
+    top: 24%;
+    left: 49.5%;
 }
 .hide-4{
-    width: 5rem;
-    height: 4.60rem;
+    width: 23%;
+    height: 30%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 3.75rem;
-    left: 16.25rem;
+    top: 24%;
+    left: 72%;
 }
 
 
@@ -61,7 +64,7 @@ h1{
     margin-right: auto;
 }
 .photo-each{
-    width: 4.5rem;
+    width: 20%;
     margin: auto;
     cursor: pointer;
 }
