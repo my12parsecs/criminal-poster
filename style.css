@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://saitama-bg.com/texture/block/block01.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+}
+.photo{
+    width: 97%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute; */
+}
+.hide-1{
+    width: 4.5rem;
+    height: 4.60rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3.75rem;
+    left: 1.12rem;
+}
+.hide-2{
+    width: 4.5rem;
+    height: 4.60rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3.75rem;
+    left: 6.15rem;
+}
+.hide-3{
+    width: 4.5rem;
+    height: 4.60rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3.75rem;
+    left: 11.15rem;
+}
+.hide-4{
+    width: 5rem;
+    height: 4.60rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3.75rem;
+    left: 16.25rem;
+}
+
+
+
+.options{
+    position: relative;
+    /* width: 90%; */
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo-each{
+    width: 4.5rem;
+    margin: auto;
+    cursor: pointer;
+}
