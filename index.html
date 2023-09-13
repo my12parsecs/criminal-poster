@@ -10,21 +10,60 @@
 <body>
     <h1>重要指名手配ゲーム</h1>
     <h3>指名手配ポスターを正しく完成させよう！</h3>
-    <script src="index.js"></script>
 
     <div class="container">
         <img src="https://www.police.pref.nara.jp/cmsfiles/contents/0000000/308/R4shimeitehai_4.jpg" alt="" class="photo">
-        <div class="hide-1"></div>
-        <div class="hide-2"></div>
-        <div class="hide-3"></div>
-        <div class="hide-4"></div>
+        <div id="hide-1" class="position"></div>
+        <div id="hide-2" class="position"></div>
+        <div id="hide-3" class="position"></div>
+        <div class="position-additional"></div>
+        <div id="hide-4" class="position"></div>
         </img>
     </div>
+
+
     <div class="options">
-        <img src="./photos/Screenshot 2023-09-03 at 15.54.24.jpg" alt="" class="photo-each">
-        <img src="./photos/Screenshot 2023-09-03 at 15.54.41.jpg" alt="" class="photo-each">
-        <img src="./photos/Screenshot 2023-09-03 at 15.54.51.jpg" alt="" class="photo-each">
-        <img src="./photos/Screenshot 2023-09-03 at 15.55.07.jpg" alt="" class="photo-each">
+        <div class="options-each">
+            <img src="./photos/Screenshot 2023-09-03 at 15.54.24.jpg" alt="" class="photo-each" draggable="true" id="1">
+        </div>
+        <div class="options-each">
+            <img src="./photos/Screenshot 2023-09-03 at 15.54.41.jpg" alt="" class="photo-each" draggable="true" id="2">
+        </div>
+        <div class="options-each">
+            <img src="./photos/Screenshot 2023-09-03 at 15.54.51.jpg" alt="" class="photo-each" draggable="true" id="3">
+        </div>
+        <div class="options-each">
+            <img src="./photos/Screenshot 2023-09-03 at 15.55.07.jpg" alt="" class="photo-each" draggable="true" id="4">
+        </div>
+        <!-- <img src="./photos/Screenshot 2023-09-03 at 15.54.24.jpg" alt="" class="photo-each"> -->
+        <!-- <img src="./photos/Screenshot 2023-09-03 at 15.54.41.jpg" alt="" class="photo-each"> -->
+        <!-- <img src="./photos/Screenshot 2023-09-03 at 15.54.51.jpg" alt="" class="photo-each"> -->
+        <!-- <img src="./photos/Screenshot 2023-09-03 at 15.55.07.jpg" alt="" class="photo-each"> -->
     </div>
+
+
+    <div class="finish-container">
+        <button class="finish">終了</button>
+        <h4 class="score-container"></h4>
+    </div>
+
+
+
+
+    <!-- お手本 -->
+    <!-- <div class="container">
+        <div class="box"><div id="item" draggable="true"></div></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <p id="output"></p>
+    <p><a href="https://1-notes.com/javascript-addeventlistener-drag-and-drop-event/" target="_blank" rel="noopener">JavaScript | addEventListener Drag and Drop Event | ONE NOTES</a></p> -->
+
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
